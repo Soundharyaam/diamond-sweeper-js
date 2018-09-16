@@ -1,0 +1,105 @@
+<html>
+  <head>
+    <title>Quintype App</title>
+    <link rel="stylesheet" href="/assets/style.css" type="text/css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script type="text/javascript" src="/assets/app.js"></script>
+  </head>
+  <body>
+    <div id="container">
+      <h1>Play the interactive diamond sweeper game and contest with others to get the top score!</h1>
+      <p>Top score: 64</p>
+      <p>Your score: <span id="score"></span></p>
+
+      <div>
+        <div class="messages"></div>
+        <table class="diamondsweeper-board">
+          <tbody>
+            <tr>
+              <td><div class="cell unknown" id="1" onclick="diamond(this.id);"></div></td>
+              <td><div class="cell unknown" id="2" onclick="diamond(this.id);"></div></td>
+              <td><div class="cell unknown" id="3" onclick="diamond(this.id);"></div></td>
+              <td><div class="cell unknown" id="4" onclick="diamond(this.id);"></div></td>
+              <td><div class="cell unknown" id="5" onclick="diamond(this.id);"></div></td>
+              <td><div class="cell unknown" id="6" onclick="diamond(this.id);"></div></td>
+              <td><div class="cell unknown" id="7" onclick="diamond(this.id);"></div></td>
+              <td><div class="cell unknown" id="8" onclick="diamond(this.id);"></div></td>
+            </tr>
+            <tr>
+              <td><div class="cell unknown" id="9" onclick="diamond(this.id);"></div></td>
+              <td><div class="cell unknown" id="10" onclick="diamond(this.id);"></div></td>
+              <td><div class="cell unknown" id="11" onclick="diamond(this.id);"></div></td>
+              <td><div class="cell unknown" id="12" onclick="diamond(this.id);"></div></td>
+              <td><div class="cell unknown" id="13" onclick="diamond(this.id);"></div></td>
+              <td><div class="cell unknown" id="14" onclick="diamond(this.id);"></div></td>
+              <td><div class="cell unknown" id="15" onclick="diamond(this.id);"></div></td>
+              <td><div class="cell unknown" id="16" onclick="diamond(this.id);"></div></td>
+            </tr>
+            <tr>
+              <td><div class="cell unknown" id="17" onclick="diamond(this.id);"></div></td>
+              <td><div class="cell unknown" id="18" onclick="diamond(this.id);"></div></td>
+              <td><div class="cell unknown" id="19" onclick="diamond(this.id);"></div></td>
+              <td><div class="cell unknown" id="20" onclick="diamond(this.id);"></div></td>
+              <td><div class="cell unknown" id="21" onclick="diamond(this.id);"></div></td>
+              <td><div class="cell unknown" id="22" onclick="diamond(this.id);"></div></td>
+              <td><div class="cell unknown" id="23" onclick="diamond(this.id);"></div></td>
+              <td><div class="cell unknown" id="24" onclick="diamond(this.id);"></div></td>
+            </tr>
+            <tr>
+              <td><div class="cell unknown" id="25" onclick="diamond(this.id);"></div></td>
+              <td><div class="cell unknown" id="26" onclick="diamond(this.id);"></div></td>
+              <td><div class="cell unknown" id="27" onclick="diamond(this.id);"></div></td>
+              <td><div class="cell unknown" id="28" onclick="diamond(this.id);"></div></td>
+              <td><div class="cell unknown" id="29" onclick="diamond(this.id);"></div></td>
+              <td><div class="cell unknown" id="30" onclick="diamond(this.id);"></div></td>
+              <td><div class="cell unknown" id="31" onclick="diamond(this.id);"></div></td>
+              <td><div class="cell unknown" id="32" onclick="diamond(this.id);"></div></td>
+            </tr>
+            <tr>
+              <td><div class="cell unknown" id="33" onclick="diamond(this.id);"></div></td>
+              <td><div class="cell unknown" id="34" onclick="diamond(this.id);"></div></td>
+              <td><div class="cell unknown" id="35" onclick="diamond(this.id);"></div></td>
+              <td><div class="cell unknown" id="36" onclick="diamond(this.id);"></div></td>
+              <td><div class="cell unknown" id="37" onclick="diamond(this.id);"></div></td>
+              <td><div class="cell unknown" id="38" onclick="diamond(this.id);"></div></td>
+              <td><div class="cell unknown" id="39" onclick="diamond(this.id);"></div></td>
+              <td><div class="cell unknown" id="40" onclick="diamond(this.id);"></div></td>
+            </tr>
+            <tr>
+              <td><div class="cell unknown" id="41" onclick="diamond(this.id);"></div></td>
+              <td><div class="cell unknown" id="42" onclick="diamond(this.id);"></div></td>
+              <td><div class="cell unknown" id="43" onclick="diamond(this.id);"></div></td>
+              <td><div class="cell unknown" id="44" onclick="diamond(this.id);"></div></td>
+              <td><div class="cell unknown" id="45" onclick="diamond(this.id);"></div></td>
+              <td><div class="cell unknown" id="46" onclick="diamond(this.id);"></div></td>
+              <td><div class="cell unknown" id="47" onclick="diamond(this.id);"></div></td>
+              <td><div class="cell unknown" id="48" onclick="diamond(this.id);"></div></td>
+            </tr>
+            <tr>
+              <td><div class="cell unknown" id="49" onclick="diamond(this.id);"></div></td>
+              <td><div class="cell unknown" id="50" onclick="diamond(this.id);"></div></td>
+              <td><div class="cell unknown" id="51" onclick="diamond(this.id);"></div></td>
+              <td><div class="cell unknown" id="52" onclick="diamond(this.id);"></div></td>
+              <td><div class="cell unknown" id="53" onclick="diamond(this.id);"></div></td>
+              <td><div class="cell unknown" id="54" onclick="diamond(this.id);"></div></td>
+              <td><div class="cell unknown" id="55" onclick="diamond(this.id);"></div></td>
+              <td><div class="cell unknown" id="56" onclick="diamond(this.id);"></div></td>
+            </tr>
+            <tr>
+              <td><div class="cell unknown" id="57" onclick="diamond(this.id);"></div></td>
+              <td><div class="cell unknown" id="58" onclick="diamond(this.id);"></div></td>
+              <td><div class="cell unknown" id="59" onclick="diamond(this.id);"></div></td>
+              <td><div class="cell unknown" id="60" onclick="diamond(this.id);"></div></td>
+              <td><div class="cell unknown" id="61" onclick="diamond(this.id);"></div></td>
+              <td><div class="cell unknown" id="62" onclick="diamond(this.id);"></div></td>
+              <td><div class="cell unknown" id="63" onclick="diamond(this.id);"></div></td>
+              <td><div class="cell unknown" id="64" onclick="diamond(this.id);"></div></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <script type="text/javascript">startApp(document.getElementById("container"));</script>
+    
+  </body>
+</html>
