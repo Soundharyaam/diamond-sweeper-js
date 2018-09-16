@@ -117,9 +117,13 @@
       {
         console.log("the id inside if is", id);
         document.getElementById(id).className="cell diamond";
+        counter=counter;
+        document.getElementById("score").innerHTML=counter;
       }
       else{
         document.getElementById(id).className="cell";
+        counter=counter-1;
+        document.getElementById("score").innerHTML=counter;
         
       }
       
