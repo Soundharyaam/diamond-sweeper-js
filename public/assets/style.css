@@ -43,3 +43,15 @@ table.diamondsweeper-board td {
   margin-left:20px;
 }
 }
+
+#gamename{
+  font-size:6vw;
+}
+
+.generalmessage{
+  font-size:4vw;
+}
+
+.scorefont{
+  font-size:3vw;
+}
