@@ -31,3 +31,15 @@ table.diamondsweeper-board td {
   color:#c51162;
   text-transform:uppercase;
 }
+
+@media only screen and (min-width: 1001px) {
+  .cell {
+    margin-left:25px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width:1000px){
+.cell {
+  margin-left:20px;
+}
+}
