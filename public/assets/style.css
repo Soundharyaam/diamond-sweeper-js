@@ -26,3 +26,8 @@ table.diamondsweeper-board td {
   color:#33691e; 
 }
 
+#gamename{
+  text-align: center;
+  color:#c51162;
+  text-transform:uppercase;
+}
