@@ -1,55 +1,40 @@
 # Diamond Sweeper
 
-## Problem Statement
 
-The goal of this exercise is to build a game.
+Find the 8 hidden diamond behind the squares. This application is created with HTML5, CSS, JS and Material Design framework called [Materializecss](https://materializecss.com).
 
-The rules of the game are as follows:
 
-* The game board has 8x8 squares (initially, all represented by question marks)
-* There are 8 diamonds hidden on the board, each diamond behind one of the squares
-* When the user clicks on a square
-    * If the square was hiding a diamond, the diamond appears
-    * Otherwise, the square is opened, and blank
-* The game ends when all diamonds are found. The user's score is the number of squares still left unturned.
+## Getting started with this project
 
-## Advanced: Adding Hints
+Clone this repository by running the following command:
 
-Part II of this problem adds the ability to add hints to empty squares
+```
+git clone https://github.com/Soundharyaam/diamond-sweeper-js.git
+```
 
-* When the user clicks on a square
-    * If the square was not a diamond, then an arrow appears, pointing towards the nearest diamond
-    * Any arrows that were previously show become hidden
+Run the following commands to get the project ready:
 
-## Starter App
+```
+cd diamond-sweeper-js
+npm install
+```
 
-Provided is a simple application which can be used as a starter kit. It contains a simple UI for the above problem. Feel free to add any libraries or frameworks that you believe can help. Unit tests for any logic that the application contains is a bonus.
+Run the project by using the command given below:
 
-Requirements:
+```
+npm start
+```
 
-* node.js (the app was built against v8.1.4, but any node > 6 should work)
-* npm
+The project will be launched in http://localhost:3000/ or http://127.0.0.1:3000/. Use the browser to see the visual representation of the project and to start playing the game.
 
-To start the Application:
+##Information for developers
 
-* Install the dependencies (via `yarn install` or `npm install`)
-* Compile Assets: `npm run compile`
-* Start the webserver: `npm start`
-* Visit `http://localhost:3000` to see the application
+Eight randomly generated number is being displayed in the console of the browsers' developer tool. Please use this only for the development purpose to have the fruitful play :smile: 
 
-If you have done the above steps correctly, you should see the below
+##Contributing
 
-![Screenshot](./screenshot.jpg)
+Feel free to create an issue or a pull request, if you'd like any new feature to be added-up.
 
-If you make a change, run the last two steps above to see it reflected.
+##Authors
 
-## Bonus Sections
-
-You may also choose to try some of the bonus parts of this problem:
-
-1. (UI) - Improve the board to semantic html. The default HTML provided uses tables.
-2. (UI) - Make the UI responsive.
-3. (Javascript) - Support the ability to save your progress, and load your last save.
-4. (Javascript) - Cover logic in your application with meaningful tests
-5. (Infra) - Get hot reloading working
-6. (Infra) - Get asset pipelining and minification working
+[Soundharya AM](https://blog.soundharyaam.com/);
