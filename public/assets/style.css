@@ -1,0 +1,28 @@
+table.diamondsweeper-board td {
+  padding: 0;
+  border: 3px solid #c51162;
+   }
+
+.cell {
+  height: 50px;
+  width: 50px;
+  background-size: 50px 50px;
+  }
+  .cell.diamond {
+    background-image: url(/assets/diamond.png); 
+  }
+  .cell.arrow {
+    background-image: url(/assets/arrow.png); 
+    }
+  .cell.unknown {
+    background-image: url(/assets/question.png); 
+   }
+
+.messages{
+ color:#5d4037; 
+}
+
+#score{
+  color:#33691e; 
+}
+
