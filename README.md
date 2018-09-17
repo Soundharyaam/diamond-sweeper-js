@@ -27,14 +27,14 @@ npm start
 
 The project will be launched in http://localhost:3000/ or http://127.0.0.1:3000/. Use the browser to see the visual representation of the project and to start playing the game.
 
-##Information for developers
+## Information for developers
 
 Eight randomly generated number is being displayed in the console of the browsers' developer tool. Please use this only for the development purpose to have the fruitful play :smile: 
 
-##Contributing
+## Contributing
 
 Feel free to create an issue or a pull request, if you'd like any new feature to be added-up.
 
-##Authors
+## Authors
 
-[Soundharya AM](https://blog.soundharyaam.com/);
+[Soundharya AM](https://blog.soundharyaam.com/)
