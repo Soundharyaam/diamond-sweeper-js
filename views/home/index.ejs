@@ -6,13 +6,17 @@
     <script type="text/javascript" src="/assets/app.js"></script>
   </head>
   <body>
-    <div id="container">
-      <h1>Play the interactive diamond sweeper game and contest with others to get the top score!</h1>
-      <p>Top score: 64</p>
-      <p>Your score: <span id="score"></span></p>
-
+    <div class="container">
       <div>
-        <div class="messages"></div>
+        <div class="messages">
+            <h1 id="gamename">Diamond Sweeper Game!</h1>
+            <h3>Play the interactive diamond sweeper game and compete with others to get the top score!</h3>
+            <div class="scoremessages">
+            <h5>Top score: 56</h5>
+            <h5>Your score: <span id="score"></span></h5>
+            </div>
+        </div>
+        <br/>
         <table class="diamondsweeper-board">
           <tbody>
             <tr>
@@ -112,11 +116,8 @@
     console.log(arr);
 
     function diamond(id){
-      console.log("the id before if",id);
-      console.log("the array inside diamond",arr);
       if(arr.includes(parseInt(id)))
       {
-        console.log("the id inside if is", id);
         document.getElementById(id).className="cell diamond";
         counter=counter;
         document.getElementById("score").innerHTML=counter;
@@ -130,7 +131,6 @@
         document.getElementById(id).className="cell";
         counter=counter-1;
         document.getElementById("score").innerHTML=counter;
-        
       }
       
     }
