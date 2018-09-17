@@ -101,7 +101,8 @@
     </div>
     <script type="text/javascript">startApp(document.getElementById("container"));</script>
     <script>
-    let counter=64;
+    let counter=56;
+    var diamondFlipCount=0;
     var arr = new Array();
     while(arr.length < 8){
     randomnumber = Math.floor(Math.random()*64) + 1;
@@ -119,6 +120,11 @@
         document.getElementById(id).className="cell diamond";
         counter=counter;
         document.getElementById("score").innerHTML=counter;
+        diamondFlipCount=diamondFlipCount+1;
+        if(diamondFlipCount==8){
+          alert("Your score is:"+counter);
+          window.location.reload(true);
+        }
       }
       else{
         document.getElementById(id).className="cell";
